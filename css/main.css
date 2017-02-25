@@ -77,49 +77,23 @@ a {
     margin: 0;
     padding: 30px 1em;
     color: #FFFFFF;
+    float: left;
 }
 
 @media (min-width: 500px {
     #logo {
         padding: 30px 0;
+        float: left;
     }
     })
 
-#logo h1 {
-    line-height: 120px;
-    letter-spacing: -2px;
-    font-size: 3.8em;
-}
 
-#logo h1 a {
-    color: #1F1F1F;
-    text-shadow: 1px 1px 0px rgba(0,0,0,.2);
-}
-
-#logo p {
-    margin: 0;
-    padding: 0px 0 0 0px;
-    letter-spacing: -1px;
-    font: normal 18px Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
-    color: #8E8E8E;
-}
-
-#logo p a {
-    color: #8E8E8E;
-}
-
-#logo a {
-    border: none;
-    background: none;
-    text-decoration: none;
-    color: #000000;
-}
 
 /* Menu */
 #menu {
     margin: 0 auto;
     padding: 0;
+    float: right
 }
 
 #menu ul {
@@ -154,6 +128,7 @@ nav li {
     nav li {
         display: inline-block;
         width: 50%;
+        float: left;
     }
 }
 
@@ -161,6 +136,7 @@ nav li {
     nav li {
         display: inline-block;
         width: calc(100% /3);
+        float: left;
     }
 }
 
@@ -168,6 +144,7 @@ nav li {
     nav li {
         display: inline-block;
         width: calc(100% /6);
+        float: left;
     }
 }
 
@@ -194,9 +171,11 @@ nav li {
 }
 
 .post {
-    overflow: hidden;
-    margin-bottom: 40px;
     border-bottom: 1px solid #E7EBED;
+}
+
+.post + .post {
+    margin-top: 1.5em;
 }
 
 .post .title {
@@ -296,6 +275,7 @@ nav li {
 #sidebar li ul {
     margin: 0px 0px;
     padding-bottom: 30px;
+
 }
 
 #sidebar li li {
@@ -320,7 +300,6 @@ nav li {
 
 #sidebar h2 {
     height: 38px;
-    padding: 0px 0px 30px 0px;
     letter-spacing: -.5px;
     font-size: 1.8em;
     color: #222222;
