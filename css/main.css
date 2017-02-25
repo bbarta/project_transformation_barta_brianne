@@ -47,25 +47,20 @@ a {
 }
 
 .container {
-    width: 1000px;
     margin: 0px auto;
 }
 
 /* Header */
 #header-wrapper {
-    overflow: hidden;
 }
 
 #header {
-    height: 150px;
     margin: 0 auto;
     padding: 0px 0px;
 }
 
 /* Logo */
 #logo {
-    float: left;
-    width: 300px;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
@@ -104,23 +99,20 @@ a {
 
 /* Menu */
 #menu {
-    float: right;
-    width: 500px;
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
-    float: right;
     margin: 0;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
     list-style: none;
     line-height: normal;
 }
 
+/*remove?*/
 #menu li {
-    float: left;
+    /*float: left;*/
 }
 
 #menu a {
@@ -316,7 +308,6 @@ a {
 
 #banner {
     margin: 0px auto;
-    height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
