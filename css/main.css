@@ -80,12 +80,13 @@ a {
     float: left;
 }
 
+
 @media (min-width: 500px {
     #logo {
         padding: 30px 0;
         float: left;
     }
-    })
+})
 
 
 
@@ -121,6 +122,8 @@ a {
 
 nav li {
     display: inline;
+    padding-bottom: 20px;
+
 }
 
 
@@ -254,11 +257,19 @@ nav li {
     display: block;
 }
 
+@media (min-width: 850px) {
+    #content {
+        float: right;
+        width: 60%;
+    }
+}
 
 /* Sidebar */
 #sidebar {
     margin: 0px;
     padding: 30px 0px 0px 0px;
+    float: left;
+    width: 29%;
 }
 
 #sidebar ul {
